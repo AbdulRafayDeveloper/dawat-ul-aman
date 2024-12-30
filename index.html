@@ -128,7 +128,8 @@
           <div class="content row gy-4">
             <div class="col-lg-4 d-flex align-items-stretch">
               <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-                <h3>Why Choose Dawat-Ul-Aman?</h3>
+                <!-- <h3></h3> -->
+                <p  class="text-2xl md:text-3xl font-bold">Why Choose <br> Dawat-Ul-Aman?</p>
                 <p>
                   We offer comprehensive courses that nurture both spiritual
                   growth and practical understanding of Islam, guiding students
@@ -147,11 +148,14 @@
                       data-aos="zoom-out"
                       data-aos-delay="300"
                     >
-                      <i class="bi bi-clipboard-data"></i>
-                      <h4>Corporis voluptates officia eiusmod</h4>
+                      <i
+                        class="bi bi-droplet-half"
+                        style="font-size: 3rem; color: #ffc107"
+                      ></i>
+                      <h4>Honey</h4>
                       <p>
-                        Consequuntur sunt aut quasi enim aliquam quae harum
-                        pariatur laboris nisi ut aliquip
+                        Honey is a natural sweetener with numerous health
+                        benefits, including boosting energy and immunity.
                       </p>
                     </div>
                   </div>
@@ -163,11 +167,14 @@
                       data-aos="zoom-out"
                       data-aos-delay="400"
                     >
-                      <i class="bi bi-gem"></i>
-                      <h4>Ullamco laboris ladore pan</h4>
+                      <i
+                        class="bi bi-flower3"
+                        style="font-size: 3rem; color: #ff6f61"
+                      ></i>
+                      <h4>Scents</h4>
                       <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt
+                        Scents are a significant part of our culture, offering a
+                        refreshing experience and enhancing spirituality.
                       </p>
                     </div>
                   </div>
@@ -179,11 +186,14 @@
                       data-aos="zoom-out"
                       data-aos-delay="500"
                     >
-                      <i class="bi bi-inboxes"></i>
-                      <h4>Labore consequatur incidid dolore</h4>
+                      <i
+                        class="bi bi-book"
+                        style="font-size: 3rem; color: #17a2b8"
+                      ></i>
+                      <h4>Madrassas</h4>
                       <p>
-                        Aut suscipit aut cum nemo deleniti aut omnis. Doloribus
-                        ut maiores omnis facere
+                        Madrassas play a crucial role in providing Islamic
+                        education and fostering spiritual and moral growth.
                       </p>
                     </div>
                   </div>
@@ -199,41 +209,52 @@
 
       <!-- About Section -->
       <section id="about" class="about section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About us</h2>
+          <p>
+            We are committed to delivering exceptional services, building strong
+            relationships, and ensuring customer satisfaction.
+          </p>
+        </div>
         <div class="container">
           <div class="row gy-4 gx-5">
+            <!-- Image Section -->
             <div
               class="col-lg-6 position-relative align-self-start"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <img src="assets/img/quran study.jpg" class="img-fluid" alt="" />
+              <img
+                src="assets/img/quran study.jpg"
+                class="img-fluid w-full h-full object-cover"
+                alt=""
+              />
             </div>
 
+            <!-- Content Section -->
             <div
-              class="col-lg-6 content"
+              class="col-lg-6 content flex flex-col justify-between h-full"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <h3>About Us</h3>
-              <p>
+              <p class="">
                 Dawat-ul-Aman Islamic Institute is a center of excellence
-                dedicated to spreading the message of peace and faith through
-                authentic Islamic teachings. Rooted in the principles of
-                compassion, knowledge, and spiritual growth, the institute aims
-                to provide a nurturing environment for students of all ages to
-                deepen their understanding of Islam.
+                dedicated to spreading the message of peace through authentic
+                Islamic teachings. Rooted in the principles of knowledge, and
+                spiritual growth, the institute aims to provide a nurturing
+                environment for students of all ages to deepen their
+                understanding of Islam.
               </p>
-              <ul>
+              <ul class="aboutcontent" id="aboutcontent">
                 <li>
-                  <!-- <i class="fa-solid fa-vial-circle-check"></i> -->
                   <i class="fa-solid fa-mosque"></i>
                   <div>
                     <h5>
                       "A House of Worship, Unity, and Peace for All Believers"
                     </h5>
-                    <p>
-                      Magni facilis facilis repellendus cum excepturi quaerat
-                      praesentium libre trade
+                    <p class="ml-3">
+                      A place of comfort and solace, offering a refuge for those
+                      seeking faith and unity.
                     </p>
                   </div>
                 </li>
@@ -243,19 +264,19 @@
                     <h5>
                       "The Divine Guide to Truth, Mercy, and Eternal Wisdom"
                     </h5>
-                    <p>
-                      Quo totam dolorum at pariatur aut distinctio dolorum
-                      laudantium illo direna pasata redi
+                    <p class="ml-3">
+                      A source of knowledge, guiding hearts and minds to eternal
+                      wisdom and mercy.
                     </p>
                   </div>
                 </li>
                 <li>
                   <i class="fa-solid fa-heart-circle-xmark"></i>
                   <div>
-                    <h5>Voluptatem et qui exercitationem</h5>
-                    <p>
-                      Et velit et eos maiores est tempora et quos dolorem autem
-                      tempora incidunt maxime veniam
+                    <h5>Empowering with Love and Faith</h5>
+                    <p class="ml-1">
+                      Inspiring hearts, transforming lives, and bringing peace
+                      through understanding and compassion.
                     </p>
                   </div>
                 </li>
@@ -270,69 +291,47 @@
       <section id="stats" class="stats section light-background">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4">
-            <div
-              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
-            >
-              <i class="fa-solid fa-child"></i>
-              <div class="stats-item">
+            <!-- Stats Item 1 -->
+            <div class="col-lg-4 col-md-6 flex flex-col items-center">
+              <i class="fa-solid fa-child text-4xl mb-3"></i>
+              <div class="stats-item text-center">
                 <span
                   data-purecounter-start="0"
                   data-purecounter-end="85"
                   data-purecounter-duration="1"
-                  class="purecounter"
+                  class="purecounter text-2xl font-bold"
                 ></span>
-                <p>students</p>
+                <p class="mt-2">Honey</p>
               </div>
             </div>
-            <!-- End Stats Item -->
 
-            <div
-              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
-            >
-              <i class="fa-regular fa-hospital"></i>
-              <div class="stats-item">
+            <!-- Stats Item 2 -->
+            <div class="col-lg-4 col-md-6 flex flex-col items-center">
+              <i class="fa-regular fa-hospital text-4xl mb-3"></i>
+              <div class="stats-item text-center">
                 <span
                   data-purecounter-start="0"
                   data-purecounter-end="18"
                   data-purecounter-duration="1"
-                  class="purecounter"
+                  class="purecounter text-2xl font-bold"
                 ></span>
-                <p>Departments</p>
+                <p class="mt-2">Sents</p>
               </div>
             </div>
-            <!-- End Stats Item -->
 
-            <div
-              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
-            >
-              <i class="fas fa-flask"></i>
-              <div class="stats-item">
+            <!-- Stats Item 3 -->
+            <div class="col-lg-4 col-md-6 flex flex-col items-center">
+              <i class="fas fa-flask text-4xl mb-3"></i>
+              <div class="stats-item text-center">
                 <span
                   data-purecounter-start="0"
                   data-purecounter-end="12"
                   data-purecounter-duration="1"
-                  class="purecounter"
+                  class="purecounter text-2xl font-bold"
                 ></span>
-                <p>Research Labs</p>
+                <p class="mt-2">Maddaris</p>
               </div>
             </div>
-            <!-- End Stats Item -->
-
-            <div
-              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
-            >
-              <i class="fas fa-award"></i>
-              <div class="stats-item">
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="150"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Awards</p>
-              </div>
-            </div>
-            <!-- End Stats Item -->
           </div>
         </div>
       </section>
@@ -352,6 +351,7 @@
 
         <div class="container">
           <div class="row gy-4">
+            <!-- Service Item 1: Honey -->
             <div
               class="col-lg-4 col-md-6"
               data-aos="fade-up"
@@ -359,22 +359,23 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fas fa-book"></i>
+                  <i class="fas fa-utensils text-4xl"></i>
+                  <!-- Icon for Honey -->
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Hifz-e-Quran</h3>
+                  <h3>Honey</h3>
                 </a>
                 <p>
-                  "The study of Hifz-e-Quran is a journey of deep devotion,
-                  where hearts and minds are dedicated to preserving Allah's
-                  eternal message. Through memorization, students not only
-                  safeguard the Quran but also strengthen their connection with
-                  faith and divine guidance."
+                  "Experience the purest form of nature with our organic honey.
+                  A product of dedication, where each drop reflects the richness
+                  of nature's goodness. Ideal for nourishment, healing, and
+                  faith."
                 </p>
               </div>
             </div>
             <!-- End Service Item -->
 
+            <!-- Service Item 2: Sents -->
             <div
               class="col-lg-4 col-md-6"
               data-aos="fade-up"
@@ -382,20 +383,23 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fas fa-pills"></i>
+                  <i class="fas fa-smog text-4xl"></i>
+                  <!-- Icon for Sents -->
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Marriage Broker</h3>
+                  <h3>Sents</h3>
                 </a>
                 <p>
-                  "Connecting hearts and futures, we help you find the perfect
-                  match grounded in love, values, and commitment. Trust us to
-                  guide you on the path to a blessed and harmonious marriage."
+                  "Immerse yourself in the world of fragrant sents that uplift
+                  the spirit. Whether for spiritual or personal use, our scents
+                  are designed to elevate the atmosphere with a touch of
+                  elegance."
                 </p>
               </div>
             </div>
             <!-- End Service Item -->
 
+            <!-- Service Item 3: Maddaris -->
             <div
               class="col-lg-4 col-md-6"
               data-aos="fade-up"
@@ -403,78 +407,18 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fas fa-hospital-user"></i>
+                  <i class="fas fa-school text-4xl"></i>
+                  <!-- Icon for Maddaris -->
                 </div>
                 <a href="#" class="stretched-link">
-                  <h3>Ledo Markt</h3>
+                  <h3>Maddaris</h3>
                 </a>
                 <p>
-                  Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
-                  Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
+                  "Our educational programs are rooted in traditional Islamic
+                  teachings. Providing a nurturing environment for both children
+                  and adults, we aim to instill faith, knowledge, and wisdom for
+                  a lifetime of spiritual growth."
                 </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="fas fa-dna"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Asperiores Commodit</h3>
-                </a>
-                <p>
-                  Non et temporibus minus omnis sed dolor esse consequatur.
-                  Cupiditate sed error ea fuga sit provident adipisci neque.
-                </p>
-                <a href="#" class="stretched-link"></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="fas fa-wheelchair"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Velit Doloremque</h3>
-                </a>
-                <p>
-                  Cumque et suscipit saepe. Est maiores autem enim facilis ut
-                  aut ipsam corporis aut. Sed animi at autem alias eius labore.
-                </p>
-                <a href="#" class="stretched-link"></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="fas fa-notes-medical"></i>
-                </div>
-                <a href="#" class="stretched-link">
-                  <h3>Dolori Architecto</h3>
-                </a>
-                <p>
-                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
-                  neque non et debitis iure. Corrupti recusandae ducimus enim.
-                </p>
-                <a href="#" class="stretched-link"></a>
               </div>
             </div>
             <!-- End Service Item -->
@@ -1120,185 +1064,190 @@
       </section>
       <!-- /Testimonials Section -->
 
-  <!-- Gallery Section -->
-<section id="gallery" class="gallery section">
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Gallery</h2>
-    <p>
-      Explore a collection of curated images that showcase beautiful
-      moments and unique experiences.
-    </p>
-  </div>
-  <!-- End Section Title -->
-
-  <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-    <div class="row g-0">
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/5.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/5.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Gallery</h2>
+          <p>
+            Explore a collection of curated images that showcase beautiful
+            moments and unique experiences.
+          </p>
         </div>
-      </div>
-      <!-- End Gallery Item -->
+        <!-- End Section Title -->
 
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/8.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/8.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
+        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/5.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/5.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/8.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/8.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/7.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/7.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/1.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/1.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/2.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/2.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/3.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/3.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/4.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/4.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/6.jpg"
+                  class="glightbox"
+                  data-gallery="images-gallery"
+                >
+                  <img
+                    src="assets/img/gallery/6.jpg"
+                    alt=""
+                    class="img-fluid w-full h-48 object-cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- End Gallery Item -->
+          </div>
         </div>
-      </div>
-      <!-- End Gallery Item -->
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/7.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/7.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
-        </div>
-      </div>
-      <!-- End Gallery Item -->
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/1.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/1.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
-        </div>
-      </div>
-      <!-- End Gallery Item -->
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/2.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/2.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
-        </div>
-      </div>
-      <!-- End Gallery Item -->
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/3.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/3.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
-        </div>
-      </div>
-      <!-- End Gallery Item -->
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/4.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/4.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
-        </div>
-      </div>
-      <!-- End Gallery Item -->
-
-      <div class="col-lg-3 col-md-4">
-        <div class="gallery-item">
-          <a href="assets/img/gallery/6.jpg" class="glightbox" data-gallery="images-gallery">
-            <img src="assets/img/gallery/6.jpg" alt="" class="img-fluid w-full h-48 object-cover" />
-          </a>
-        </div>
-      </div>
-      <!-- End Gallery Item -->
-    </div>
-  </div>
-</section>
-<!-- /Gallery Section -->
-
-
+      </section>
+      <!-- /Gallery Section -->
 
       <!-- Contact Section -->
       <section id="contact" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
+          <p>Feel free to get in touch with us. We are here to help you.</p>
         </div>
-        <!-- End Section Title -->
 
-        <!-- <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div> -->
-        <div>
-          <!-- <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27243.527254199044!2d73.1027968!3d31.4248742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI1JzI5LjYiTiA3M8KwMDYnMTkuMyJF!5e0!3m2!1sen!2s!4v1696259144420!5m2!1sen!2s"
-        width="600" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-        </iframe> -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27243.527254199044!2d73.1027968!3d31.4248742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI1JzI5LjYiTiA3M8KwMDYnMTkuMyJF!5e0!3m2!1sen!2s!4v1696259144420!5m2!1sen!2s"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          >
-          </iframe>
-        </div>
-        <!-- End Google Maps -->
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-4">
-              <div
-                class="info-item d-flex"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Location</h3>
-                  <p>Tarqabad Near Main Bazar, Pakistan , Faisalabad</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-
-              <div
-                class="info-item d-flex"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+92 322 6016150</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-
-              <div
-                class="info-item d-flex"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>dawat.ul.aman200@gmail.com</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <!-- Map Section -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27243.527254199044!2d73.1027968!3d31.4248742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI1JzI5LjYiTiA3M8KwMDYnMTkuMyJF!5e0!3m2!1sen!2s!4v1696259144420!5m2!1sen!2s"
+                width="100%"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
 
-            <div class="col-lg-8">
+            <!-- Form Section -->
+            <div class="col-lg-6">
               <form
                 action="forms/contact.php"
                 method="post"
                 class="php-email-form"
                 data-aos="fade-up"
-                data-aos-delay="200"
               >
                 <div class="row gy-4">
                   <div class="col-md-6">
@@ -1310,7 +1259,6 @@
                       required=""
                     />
                   </div>
-
                   <div class="col-md-6">
                     <input
                       type="email"
@@ -1320,7 +1268,6 @@
                       required=""
                     />
                   </div>
-
                   <div class="col-md-12">
                     <input
                       type="text"
@@ -1330,7 +1277,6 @@
                       required=""
                     />
                   </div>
-
                   <div class="col-md-12">
                     <textarea
                       class="form-control"
@@ -1340,24 +1286,60 @@
                       required=""
                     ></textarea>
                   </div>
-
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
                     <button type="submit">Send Message</button>
                   </div>
                 </div>
               </form>
             </div>
-            <!-- End Contact Form -->
+          </div>
+
+          <!-- Info Section Below Form -->
+          <div class="row mt-5">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Tarqabad Near Main Bazar, Pakistan , Faisalabad</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+92 322 6016150</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <div
+                class="info-item d-flex"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>dawat.ul.aman200@gmail.com</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- /Contact Section -->
     </main>
 
     <footer id="footer" class="footer light-background">
@@ -1369,7 +1351,7 @@
             </a>
             <div class="footer-contact pt-3">
               <p>Tarqabad Near Main Bazar</p>
-              <p>Pakistan , Faisalabad</p>
+              <p>Pakistan, Faisalabad</p>
               <p class="mt-3">
                 <strong>Phone:</strong> <span>+92 322 6016150</span>
               </p>
@@ -1392,7 +1374,7 @@
               <li><a href="#">About us</a></li>
               <li><a href="#">Services</a></li>
               <!-- <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li> -->
+              <li><a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
@@ -1406,27 +1388,20 @@
             </ul>
           </div>
 
-          <!-- <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div> -->
+          <!-- Add Map on the Right Side -->
+          <div class="col-lg-4 col-md-6">
+            <h4>Our Location</h4>
+            <div class="map-container">
+              <iframe
+                class="w-full h-64 rounded-lg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27243.527254199044!2d73.1027968!3d31.4248742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDI1JzI5LjYiTiA3M8KwMDYnMTkuMyJF!5e0!3m2!1sen!2s!4v1696259144420!5m2!1sen!2s"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+          <!-- End Map -->
         </div>
       </div>
 
